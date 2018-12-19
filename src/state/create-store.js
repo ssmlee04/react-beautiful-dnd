@@ -78,7 +78,7 @@ export default ({
         dropAnimationFinish,
         pendingDrop,
         updateViewportMaxScrollOnDestinationChange,
-        autoScroll(getScroller),
+        // autoScroll(getScroller),
         // Fire responders for consumers (after update to store)
         responders(getResponders, announce),
       ),
