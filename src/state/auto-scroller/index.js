@@ -30,9 +30,10 @@ export default ({
 
   const scroll = (state: State) => {
     // Only allowing auto scrolling in the DRAGGING phase
-    if (state.phase !== 'DRAGGING') {
-      return;
-    }
+    // if (state.phase !== 'DRAGGING') {
+    //   return;
+    // }
+    return;
 
     if (state.movementMode === 'FLUID') {
       fluidScroller.scroll(state);
